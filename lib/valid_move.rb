@@ -6,9 +6,9 @@
 # valid_move? method 
 def valid_move?(board, index) 
    if (board[index] == " " )
-      false
+      true
    elsif (board[index] == "" )
-       false
+      true
    elsif (board[index] == nil )
        false
    else (board[index] == ["X", "O"])
